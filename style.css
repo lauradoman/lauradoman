@@ -5,7 +5,11 @@
 }
 
 body {
+<<<<<<< HEAD
     height: 100vh;
+=======
+    min-height: 100vh;
+>>>>>>> 4b90650 (add text animation)
     /* Asegura que el fondo cubra toda la altura de la ventana */
     background: linear-gradient(#F29933, #7733f2);
     /* Fondo inicial */
@@ -34,6 +38,7 @@ body {
 }
 
 .especialidad {
+<<<<<<< HEAD
     font-family: "Roboto", serif;
     font-weight: 700;
     font-style: normal;
@@ -65,4 +70,38 @@ body {
 /* Dispositivos medianos tableta*/
 @media (min-width:769px) and (max-width: 1279px) {
     
+=======
+    display: inline-flex;
+    filter: drop-shadow(0 0 1.2vh #000000);
+    margin-top: -3%;
+    font-size: 3vw;
+}
+
+.especialidad .txtStatic {
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-left: -45%;
+}
+
+
+.especialidad .txtDinamic {
+    margin-left: 5%;
+}
+
+.especialidad .txtDinamic li {
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: normal;
+    list-style: none;
+}
+
+.txtDinamic li span::after {
+ content: "";
+ position: absolute;
+ left: 0;
+ height: 100%;
+ width: 100%;
+ margin-left: 1vw;  
+>>>>>>> 4b90650 (add text animation)
 }
